@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moretti Bistrô</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="fixed-top" id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+            <a class="navbar-brand" href="#">Moretti Bistrô</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vinhos">Carta de vinhos</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="home">
+        <div id="carousel-home" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="container carousel-inner">
+                <div data-bs-interval="2500" class="carousel-item active">
+                    <img class="d-block w-100" src="imagens/chef-placing-herb-gourmet-meal.jpg" alt="imagem1">
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/professional-chef-preparing-food-kitchen.jpg" alt="imagem2">
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/imagens3.jpg" alt="imagem3">
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/imagem4.jpg" alt="imagem4">
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/imagem5.jpg" alt="imagem5">
+                </div>
+                <button data-bs-target="#carousel-home" data-bs-slide="prev" class="carousel-control-prev" type="button"><span class="carousel-control-prev-icon"></span></button>
+                <button data-bs-target="#carousel-home" data-bs-slide="next" class="carousel-control-next" type="button"><span class="carousel-control-next-icon"></span></button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-home" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            </div>
+        </section>
+                
+        <section id="menu">
+            <div class="container mt-5">
+                <div class="row"> 
+                    <h2 class="mb-4">Confira nosso menu:</h2>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/card1.jpg" class="card-img-top" alt="Imagem do Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Pene à amatriciana</h5>
+                                <p class="card-text">Molho de tomate em pedaços, bacon e cebola</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/card2.jpg" class="card-img-top" alt="Imagem do Card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Ravioli ao Molho Branco</h5>
+                                <p class="card-text">Ravioli com massa da casa, com molho branco </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/card3.jpg" class="card-img-top" alt="Imagem do Card 3">
+                            <div class="card-body">
+                                <h5 class="card-title"> Galeto</h5>
+                                <p class="card-text">Nosso galeto clássico. Gratinado com Molho In Rosso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vinhos">
+            <div class="container mt-5">
+                <div class="row"> 
+                    <h2 class="mb-4">Confira nossa carta de vinhos:</h2>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/vinho1.jpg" class="card-img-top" alt="vinho1">
+                            <div class="card-body">
+                                <h5 class="card-title">Romanée Conti Grand Cru</h5>
+                                <p class="card-text">2005</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/vinho2.jpg" class="card-img-top" alt="vinho2">
+                            <div class="card-body">
+                                <h5 class="card-title">Romanée Conti Grand Cru</h5>
+                                <p class="card-text">2007 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <img src="imagens/vinho3.jpg" class="card-img-top" alt="vinho3">
+                            <div class="card-body">
+                                <h5 class="card-title">Montrachet Domaine Leflaive </h5>
+                                <p class="card-text">1980</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+<footer class="bg-light text-center p-4"> &#169; Moretti Bistrô 2023 - Todos os direitos reservados </footer>
+<script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
